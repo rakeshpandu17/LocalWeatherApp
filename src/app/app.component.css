@@ -1,0 +1,22 @@
+
+body {
+    background-color: lightsalmon;
+    
+}
+
+
+h2 {
+    color: red;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: rgb(72, 20, 131);
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
