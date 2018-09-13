@@ -1,13 +1,10 @@
 <div>
     <div>
-      <span>{{current.city}}, {{current.country}}</span>
-      <span>{{current.date | date:'fullDate'}}</span>
+      <span class = "city">{{current.city}}, {{current.country}}</span>
+      <p class="dotted">{{current.date | date:'fullDate'}}</p>
     </div>
     <div>
       <img [src]='current.img'>
-      <span>{{current.temperature | number:'1.0-0'}}&#8457;</span>
+      <p class = "tempa">{{current.temperature | number:'1.0-0'}}&#8457; {{current.description}}</p>
     </div>
-    <div>
-      {{current.description}}
-    </div>
-  </div>
+</div>

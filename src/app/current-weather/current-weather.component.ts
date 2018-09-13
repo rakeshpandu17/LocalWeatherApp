@@ -14,7 +14,7 @@ current: ICurrentWeather;
     
   }
   ngOnInit() {
-    this.weatherService.getCurrentWeather('Bethesda', 'US').subscribe((data) => this.current = data)
+    this.weatherService.getCurrentWeather('Bothell', 'US').subscribe((data) => this.current = data)
   
   }
 }

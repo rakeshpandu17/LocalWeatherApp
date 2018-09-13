@@ -1,0 +1,11 @@
+p.dotted {border-style: outset; font-family: Palatino; font-size: 20px}
+p.tempa {border-style: outset; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px}
+span.city {font-family: 'Courier New', Courier, monospace; font-size: 30px}
+div{ 
+    text-align: center;
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 30px;
+}
