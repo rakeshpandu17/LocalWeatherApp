@@ -24,3 +24,9 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
+
+.text {
+    color: red;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
